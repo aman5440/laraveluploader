@@ -1,0 +1,23 @@
+{
+    "name": "idea/uploader",
+    "description": "Package For Uploading Files",
+    "authors": [
+        {
+            "name": "Amandeep Singh",
+            "email": "amandeeps@ideafoundation.in"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Idea\\Uploader\\":"src"
+        }
+    },
+    "require": {
+        "php":  ">=7.2",
+        "illuminate/database":  ">=5.0",
+        "illuminate/support":   ">=5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
