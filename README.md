@@ -27,9 +27,11 @@ Here is some code from layout file
 <h3>Route Declaration</h3>
 Philosophy of this package is to provide freedom to link uploaded file to with any section of application. For this you must have control on the uploading functionality. That's why this package need a route, the endpoint.
 
-<h3><x-myuploader-uploader-form action="claimFileUpload"/></h3>
+<h3>&lt x-myuploader-uploader-form action="claimFileUpload"/></h3>
 
 You need to use this in your application's blade file, where the action is end point.
+
+
 
 
 
