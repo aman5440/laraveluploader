@@ -31,7 +31,18 @@ Philosophy of this package is to provide freedom to link uploaded file to with a
 
 You need to use this in your application's blade file, where the action is end point.
 
+<h2>Next Step</h2>
+php artisan migrate
 
+<h3>In your controller</h3>
+Use Trait
+use UploadableTrait;
+from use Idea\Uploader\UploadableTrait;
+
+In controller action function
+$this->upload($request);
+
+It will return the uploaded files IDs. 
 
 
 
