@@ -4,6 +4,6 @@ This package uses the dorpzone wrapped in a Laravel's blade component, provides 
 It also allows you to linkthe uploaded files to link with related table.
 
 
-#Installation via composer
+# Installation via composer
 
-#composer require idea/uploader
+composer require idea/uploader
