@@ -35,14 +35,14 @@ You need to use this in your application's blade file, where the action is end p
 php artisan migrate
 
 <h3>In your controller</h3>
-Use Trait
-use UploadableTrait;
-from use Idea\Uploader\UploadableTrait;
+Use Trait<br />
+use UploadableTrait;<br />
+from use Idea\Uploader\UploadableTrait;<br /><br />
 
-In controller action function
-$this->upload($request);
+In controller action function<br />
+$this->upload($request);<br /><br />
 
-It will return the uploaded files IDs. 
+It will return the uploaded files IDs. <br />
 
 
 
