@@ -42,7 +42,7 @@ from use Idea\Uploader\UploadableTrait;<br /><br />
 In controller action function<br />
 $this->upload($request);<br /><br />
 
-It will return the uploaded files IDs. <br />
+It will return the uploaded files Instances. <br />
 
 
 
